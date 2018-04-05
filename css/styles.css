@@ -1,0 +1,147 @@
+ /* Resets */
+li {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+*{
+    margin: 0;
+}
+/* /Resets*/
+
+/* Helper Classes */
+.pull-left {
+    float: left;
+}
+.pull-right {
+    float: right;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+/* /Helper Classes */
+
+/* Navbar */
+.logo{
+  height:7em;
+}
+.nav{
+  background-color:#F9BB01;
+  height:7em;
+}
+.nav-links{
+  margin-top:2em;
+  
+}
+.nav-links li{
+  display:inline-block;
+  margin-right: 1em;
+ 
+}
+.centered{
+    margin:0 auto;
+}
+.link  {
+     color: #402100;
+     padding: 5px 10px;
+     border-radius: 5px;
+}
+.link.active{
+     color: #402100;
+     padding: 5px 10px;
+  border-radius: 5px;
+}
+.link:hover{
+    background-color: #f5fc00;
+    color: #402100;
+}
+/*/nav bar*/
+
+/* Main */
+.hero {
+    background-image: url("../img/daniel-olaleye-594916-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left center;
+    height: 500px;
+}
+.hero-text{
+    margin-top: 50px;
+    margin-left: 50px;
+    display: inline-block;
+    padding:10px 15px;
+    border-radius: 5px;
+    text-shadow: 5px 5px 10px  #1f7a1f;
+    background-color: rgba(255, 255, 0,.5)
+    
+}
+.welcome {
+    height: 500px;
+}
+.side-menu {
+    height: inherit;
+    background: #F6E000;
+    width: 40%;
+}
+.content {
+    height: inherit;
+    background:#985B10;
+    width: 60%;
+}
+.content>h1{
+    font-family: 'Amita', cursive;
+    text-align: center;
+}
+.fuzzybitch{
+    width: 30em;
+    Padding:40px 20px;
+    border-radius: 100%;
+    background-image: url(https://images.unsplash.com/photo-1494391752466-8a915c192649?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=c293b635669978bfad4863ccbb1e5924&auto=format&fit=crop&w=1500&q=80)
+    animation-name:yelling;
+    animation-duration: 10s;
+    animation-interation-count: infinite;
+}
+@keyframes yelling{
+  from{
+    
+  }
+  to{
+    transform: rotateY(360deg);
+  }}
+/* /Main */
+
+
+
+/* Footer */
+.box {
+    width: calc(100%/3);
+    height: 135px;
+    float: left;
+}
+.one{
+    background-color:#896800;
+    color: #896800;
+}
+.two {
+    background-color: #896800;
+}
+.three {
+    background-color: #896800;
+    color: #896800;
+}
+.i-container {
+    width: 125px;
+    margin: 10px auto;
+}
+.icon {
+    color: #000;
+    font-size: 26px;
+    display: block;
+}
+.icon pull-left{
+    float: left;
+}
+/* /Footer */
